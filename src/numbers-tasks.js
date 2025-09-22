@@ -435,7 +435,7 @@ function getNumberValue(number) {
  * '5'      => false
  */
 function isNumber(number) {
-  ;
+  return Number.isFinite(number);
 }
 
 /**
